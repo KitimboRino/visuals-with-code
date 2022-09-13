@@ -19,13 +19,15 @@ context.arc(300, 300, 100, 0, Math.PI * 2);
 // Using loops to draw
 
 /* Drawing 5 rectangles. */
+const width = 60;
+const height = 60;
+const gap = 20;
+let x, y
 for (let i = 0; i < 5; i++) {
     for (let j = 0; j < 5; j++) {
-        let width = 60;
-        let height = 60;
-        let gap = 20;
-        let x = 100 + (width + gap) * i;
-        let y = 100 + (width + gap) * j;
+
+        x = 100 + (width + gap) * i;
+        y = 100 + (width + gap) * j;
 
         context.beginPath();
         context.rect(x, y, width, height);
