@@ -30,10 +30,14 @@ for (let i = 0; i < 5; i++) {
         context.beginPath();
         context.rect(x, y, width, height);
         context.stroke();
+        
+        /* Drawing smaller rectangles inside bigger rectangles with conditionals. */
+        if (i > 0 && i < 4) {
+            context.beginPath();
+            context.rect(x + 8, y + 8, width - 16, height - 16);
+            context.stroke();
+        }
 
-        context.beginPath();
-        context.rect(x + 8, y + 8, width - 16, height - 16);
-        context.stroke();
     }
 }
 
