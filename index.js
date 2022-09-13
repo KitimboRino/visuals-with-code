@@ -73,6 +73,7 @@ let menu = ['starter', 'main', 'desert', 'drinks', 'side']
 
 // Understanding for loops
 /* 
+for loop
 3 parts of the of the params
 index of the loop 'i' start
 Second part duration of the loop
@@ -86,3 +87,14 @@ for (let i = 0; i < 10; i++) {
     years.push(2022 + i)
 }
 console.log(years)
+
+const gravity = 9.81;
+let velocity = 0.9;
+
+/*
+forEach loop
+First param is the item being iterated over
+*/ 
+menu.forEach(item => {
+    console.log(item)
+})
