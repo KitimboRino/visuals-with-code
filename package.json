@@ -1,0 +1,23 @@
+{
+  "name": "visuals-with-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KitimboRino/visuals-with-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KitimboRino/visuals-with-code/issues"
+  },
+  "homepage": "https://github.com/KitimboRino/visuals-with-code#readme",
+  "dependencies": {
+    "canvas-sketch": "^0.7.6"
+  }
+}
